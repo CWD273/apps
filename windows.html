@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Apps - CWD App Store</title>
+    <style>
+        html, body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E24F4F; /* Match the homepage background color */
+            height: 100%;
+        }
+        header {
+            width: 100%;
+            height: 200px; /* Adjust height as needed for larger image */
+            background-color: #D96767;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        header img {
+            max-height: 80%; /* Adjust size as needed */
+            height: auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            border-radius: 15px; /* Add rounded corners */
+        }
+        .app-list-title {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .app-list {
+            list-style: none;
+            padding: 0;
+        }
+        .app-list li {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            border-bottom: 1px solid #ccc; /* Add divider line */
+            padding-bottom: 10px;
+        }
+        .app-list img {
+            height: 70px; /* Make the app icons larger */
+            margin-right: 10px;
+        }
+        .app-list a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .app-list a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="logo.png" alt="Logo"> <!-- Larger centered image linked to homepage -->
+        </a>
+    </header>
+    <div class="container">
+        <div class="app-list-title">Apps</div> <!-- Title for the app list -->
+        <ul class="app-list">
+            <li><a href="chrome-win.html"><img src="app-icon1.png" alt="">Google Chrome</a></li>
+            <li><a href="firefox-win.html"><img src="app-icon2.png" alt="">Mozilla Firefox</a></li>
+            <li><a href="opgx-win.html"><img src="app-icon3.png" alt="">Opera GX</a></li>
+            <!-- Add more apps as needed -->
+        </ul>
+    </div>
+</body>
+</html>
